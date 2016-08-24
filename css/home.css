@@ -10,8 +10,8 @@
 	background-size: cover;	
 
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 
 }
 
@@ -26,16 +26,16 @@
 
 .project-wrapper {
 	display: flex;
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .project-wrapper p {
-    position: absolute;
+	position: absolute;
 	color: #fff;
-    background-color: #000;
-    padding: 0px 20px;
-    font-size: 2em;
+	background-color: #000;
+	padding: 0px 20px;
+	font-size: 1.8em;
 }
 
 .bg-0 { 
