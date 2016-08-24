@@ -42,9 +42,17 @@ p {font-size: 16px;}
 	height: auto;
 }
 
+.footer-links-wrapper {
+	padding: 0px;
+}
+
+.footer-links {
+	padding: 0px;
+}
+
 .footer-links li {
 	display: inline-block;
-	font-size: 14px;
+	font-size: 0.6em;
 }
 
 .footer-links li  a {

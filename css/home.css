@@ -1,9 +1,9 @@
 .header {
 	padding: 0;
 	margin: 0;
-	height: 100px;
+	height: 150px;
 
-	background: #474e5d; /*url('../img/home/header_bg.jpg');*/
+	background: #474e5d url('../img/home/header_bg.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
