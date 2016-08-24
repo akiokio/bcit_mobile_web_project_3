@@ -43,7 +43,6 @@
 	color: #2f2f2f;
 }
 
-
 .bg-2 { 
 	background-color: #474e5d; /* Dark Blue */
 	color: #ffffff;
@@ -57,8 +56,20 @@
 	color: #fff;
 }
 
+#projects .row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+
+.projects-wrapper {
+	display: flex;
+  flex-flow: row wrap;
+
+  margin-top: 10px;
+}
+
 .project-wrapper {
-	width: 90%;
 	height: 200px;
 	margin: 0 auto 20px;
 	-webkit-background-size: cover;
@@ -85,4 +96,64 @@
 .project-4 {
 	background: url('../img/home/project_4_bg.jpg');
 	background-size: cover;	
+}
+
+.no-padding {
+	padding: 0px;
+}
+
+.detailed-projects-wrapper {
+	display: none;
+}
+
+@media (min-width: 768px) { 
+	.header {
+		height: 350px;
+	}
+
+	h3 {
+		font-size: 1.8em;
+	}
+
+	#competencies a {
+		display: none;
+	}
+
+	.learn-more-btn {
+		width: 143px;	
+    line-height: 3.8;
+    height: 72px;
+    font-size: 0.7em;
+	}
+
+	.tablet-right {
+		float: right;
+	}
+
+	.projects-wrapper {
+		display: none !important;
+	}
+
+	.detailed-projects-wrapper {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+	.detailed-project-wrapper {
+		height: 250px;
+    margin-bottom: 20px;
+	}
+
+	.detailed-project-wrapper .image-holder {
+		margin-top: 10px;
+		height: 250px;
+	}
+
+	.detailed-project-wrapper .details h3 {
+		margin-top: 0;
+	}
+
+	.detailed-project-wrapper .details p {
+		margin-top: 10px;
+	}
 }
