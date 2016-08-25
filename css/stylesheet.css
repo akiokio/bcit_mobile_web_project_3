@@ -39,6 +39,12 @@ p {font-size: 16px;}
 	height: 45px;
 }
 
+footer {
+	background-color: #2f2f2f;
+  color: #fff;
+  clear: both;
+}
+
 .social-logo {
 	width: 30px;
 	height: auto;
