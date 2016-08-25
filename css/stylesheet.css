@@ -1,12 +1,15 @@
 @charset('UTF-8');
 
 body {
-	font: 20px Montserrat, sans-serif;
+	font: 20px 'Montserrat', sans-serif;
 	line-height: 1.8;
 	color: #f5f6f7;
 }
 p {font-size: 16px;}
 
+.page-title {
+	font-family: 'Sacramento', cursive;
+}
 
 .container-fluid {
 	padding-top: 30px;
@@ -59,10 +62,13 @@ p {font-size: 16px;}
 }
 
 @media (min-width: 768px) { 
+	.page-title {
+		font-size: 4em;
+	}
 	.social-logo {
-	    width: 40px;
-	    height: auto;
-	    margin: 0 10px 0 0;
+    width: 40px;
+    height: auto;
+    margin: 0 10px 0 0;
 	}
 
 	.footer-links-wrapper {
