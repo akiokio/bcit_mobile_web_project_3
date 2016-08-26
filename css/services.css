@@ -56,3 +56,24 @@
 
 .competency-wrapper:nth-child(odd)		{ background-color:#fff; }
 .competency-wrapper:nth-child(even)		{ background-color:#f8f8f8; }
+
+@media (min-width: 768px) { 
+	.header {
+		height: 350px;
+	}
+
+	.competency-wrapper {
+		display: block;
+    height: 200px;
+	}
+
+	.competency-wrapper .image {
+		float: right;
+		margin-right: 15px;
+	}
+
+	.competency-wrapper .image img {
+	    width: auto;
+	    height: 200px;
+	}
+}
