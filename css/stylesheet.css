@@ -67,6 +67,11 @@ footer {
 	color: #fff;
 }
 
+.no-padding {
+	padding: 0px;
+}
+
+
 @media (min-width: 768px) { 
 	.page-title {
 		font-size: 4em;

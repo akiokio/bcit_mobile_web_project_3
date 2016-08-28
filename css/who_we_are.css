@@ -1,0 +1,34 @@
+.header {
+ 	padding: 0;
+	margin: 0;
+	height: 150px;
+
+	background: #474e5d url('../img/who_we_are/header_bg.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#list-wrapper {
+	padding-top: 0px;
+}
+
+h2, p {
+	color: #2f2f2f;
+}
+
+.promo-video {
+	padding: 0;
+	margin: 0;
+}
+
+p {
+	font-size: 0.6em;
+	padding-top: 10px;
+	float: left;
+}
