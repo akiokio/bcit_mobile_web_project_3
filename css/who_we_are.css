@@ -43,3 +43,9 @@ p {
     float: none;
   }	
 }		
+
+@media (min-width: 992px) {
+	#list-wrapper {
+    float: none;
+	}
+}
