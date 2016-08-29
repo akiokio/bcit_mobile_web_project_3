@@ -15,15 +15,27 @@
 }
 
 .project-2 {
-	background: #474e5d url('../img/projects/project-2.jpg') !important;
+	background: #474e5d url('../img/projects/project-2.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
 
 .project-3 {
-	background: #474e5d url('../img/projects/project-3.jpg') !important;
+	background: #474e5d url('../img/projects/project-3.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
 
 .project-4 {
-	background: #474e5d url('../img/projects/project-4.jpg') !important;
+	background: #474e5d url('../img/projects/project-4.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
 }
 
 #project-wrapper {
