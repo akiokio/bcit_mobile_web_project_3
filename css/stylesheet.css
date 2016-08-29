@@ -7,6 +7,10 @@ body {
 }
 p {font-size: 16px;}
 
+a {
+	color: #2f2f2f;
+}
+
 .page-title {
 	font-family: 'Sacramento', cursive;
 }
