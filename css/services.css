@@ -85,4 +85,8 @@
 		float: none;
 		margin: 10px auto;
 	}
+
+	.competency-wrapper .image {
+		margin-right: 0px;
+	}
 }

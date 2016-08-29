@@ -45,6 +45,10 @@ footer {
   clear: both;
 }
 
+footer .row {
+	margin: 0;
+}
+
 .social-logo {
 	width: 30px;
 	height: auto;
