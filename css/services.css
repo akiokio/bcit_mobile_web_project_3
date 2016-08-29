@@ -74,6 +74,15 @@
 
 	.competency-wrapper .image img {
 	    width: auto;
-	    height: 200px;
+	    height: 200px;    
+	    float: right;
+	}
+}
+
+
+@media (min-width: 992px) {
+	.competency-wrapper {
+		float: none;
+		margin: 10px auto;
 	}
 }
